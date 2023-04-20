@@ -12,6 +12,8 @@
                 <!ELEMENT PubDate (Year,Month)>
                 <!ELEMENT Year (#PCDATA)>
                 <!ELEMENT Month (#PCDATA)>
+                <!ELEMENT Day (#PCDATA)>
+                <!ELEMENT MedLineDate (#PCDATA)>
             <!ELEMENT Title (#PCDATA)>
             <!ELEMENT ISOAbbreviation (#PCDATA)>
             <!ELEMENT ArticleTitle (#PCDATA)>
@@ -22,3 +24,4 @@
                     <!ELEMENT LastName (#PCDATA)>
                     <!ELEMENT ForeName (#PCDATA)>
                     <!ELEMENT Initials (#PCDATA)>
+                    <!ELEMENT Suffix (#PCDATA)>
